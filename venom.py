@@ -28,7 +28,7 @@ client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
 db = client['VENOM']
 users_collection = db.users
 
-bot = telebot.TeleBot(7076471682:AAHytKT0sfvsuYHLN4PC_noeSCSJUIVpYlA)
+bot = telebot.TeleBot(Token)
 REQUEST_INTERVAL = 1
 
 blocked_ports = [8700, 20000, 443, 17500, 9031, 20002, 20001]  # Blocked ports list
